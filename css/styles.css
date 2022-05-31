@@ -20,9 +20,8 @@ margin: 0;
 padding-left: 0;
 }
 
-body {font-family: 'Roboto', sans-serif;color: var(--primary-text-color);
-/* background: #E5E5E5; як на макеті
-background-color: #EEEEEE; трошки світліший */
+body {
+font-family: 'Roboto', sans-serif;color: var(--primary-text-color);
 background-color: #FFFFFF;
 }
 
@@ -119,6 +118,11 @@ align-items: center;
  /* -----------------------------MAIN---------------------------------- */
 
 .main {
+background-color: var(--brand-color);
+background-image: url(../images/heroImg\ \(1\).jpg);
+/* background-repeat: no-repeat;
+background-position: center;
+background-size: cover; */
 text-align: center;
 padding-bottom: 200px;
 padding-top: 200px;
@@ -249,12 +253,13 @@ color: var(--secondary-text-color);
 list-style: none;
 }
 
-.main {
-background-color: var(--brand-color)
-}
+
+
+
 .link {
 text-decoration: none;
 }
+
 
 .list-button {
 display: flex;
