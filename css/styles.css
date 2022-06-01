@@ -110,6 +110,24 @@ margin-left: 50px;
 color: var(--color-accent)
 }
 
+.auth-nav a:hover .icon-envelope,
+.auth-nav a:focus .icon-envelope {
+fill: var(--color-accent)
+}
+
+.icon-envelope {
+margin-right: 10px;
+}
+
+.auth-nav a:hover .icon-vector,
+.auth-nav a:focus .icon-vector {
+fill: var(--color-accent);
+}
+
+.icon-vector {
+margin-right: 10px;
+}
+
 .main-list {
 display: flex;
 align-items: center;
@@ -120,13 +138,13 @@ align-items: center;
 .main {
 background-color: var(--brand-color);
 background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-    ),
+rgba(47, 48, 58, 0.4),
+rgba(47, 48, 58, 0.4)
+),
 url(../images/heroImg\ \(1\).jpg);
-/* background-repeat: no-repeat;
+background-repeat: no-repeat;
 background-position: center;
-background-size: cover; */
+background-size: cover;
 max-width: 1600px;
 margin: 0 auto;
 text-align: center;
@@ -192,6 +210,13 @@ width: 270px;
 .section-benefits {
 padding-bottom: 94px;
 padding-top: 94px;
+}
+
+.wrap {
+width: 270px;
+height: 120px;
+/* display: flex;
+justify-content: center; */
 }
 
 .list-benefits {
@@ -274,10 +299,40 @@ margin-right: 0;
 .expert-soc-link {
 width: 100%;
 height: 100%;
-background-color: tomato;
 border-radius: 50%;
-display: block;
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.expert-soc-icon {
+fill: #AFB1B8;
+}
+
+.expert-soc-link:hover,
+.expert-soc-link:focus {
+background-color: var(--color-accent);
+}
+
+.expert-soc-link:hover .expert-soc-icon,
+.expert-soc-link:focus .expert-soc-icon {
+fill: #FFFFFF;
+}
+
+.clients {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.icon-group {
+/* width: 41px;
+height: 47px; */
+}
+
 
 .list {
 list-style: none;
