@@ -265,6 +265,7 @@ margin-bottom: 50px;
 .team {
 padding-bottom: 94px;
 padding-top: 94px;
+background-color: var(--secondary-brand-color)
 }
 
 .foto {
@@ -353,7 +354,7 @@ border-color: var(--color-accent);
 }
 
 .border-logo:hover .logo-icon,
-.border-logo:focus .logo-iconn {
+.border-logo:focus .logo-icon {
 fill: var(--color-accent);
 }
 
@@ -373,7 +374,7 @@ border: 1px solid #AFB1B8;
 border-radius: 4px;
 display: flex;
 justify-content: center;
-padding: 16px 32px;
+align-items: center;
 }
 
 .clients-list-logo {
@@ -422,7 +423,8 @@ cursor: pointer;
 border: #F5F4FA;
 }
 
-.btn-list:hover {
+.btn-list:hover,
+.btn-list:focus {
 color: #FFFFFF;
 background-color: var(--color-accent);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
